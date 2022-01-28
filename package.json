@@ -27,6 +27,7 @@
     "onboarding:add-metadata-schema": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/onboarding/4-add-metadata-schema.ts",
     "onboarding:deposit-eth": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/onboarding/5-deposit-eth.ts",
     "onboarding:withdraw-eth": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/onboarding/6-withdraw-eth.ts",
+    "onboarding:deposit-erc721": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/onboarding/7-deposit-erc721.ts",
     "admin:get-projects": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/admin/get-projects.ts",
     "admin:get-withdrawal-balance": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/admin/get-withdrawal-balance.ts",
     "admin:get-project": "ts-node -r tsconfig-paths/register -r dotenv/config ./src/admin/get-project.ts",
